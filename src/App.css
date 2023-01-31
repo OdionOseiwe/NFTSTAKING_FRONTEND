@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .Home-nav{
+    font-size:  16px;
+  }
+  
+  .Home-nav-com{
+    padding-left: 10px;
+  }
+
+  .Home{
+    padding: 0;
+  }
+
+  .Home-con{
+    display:  block;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Table{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .Table-title{
+    font-size: 20px;
+  }
+
+  .Table-details{
+    width: 100%;
+  }
+}
