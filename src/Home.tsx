@@ -1,6 +1,5 @@
 import Layout from './components/Layout';
 import { Outlet, Link } from "react-router-dom";
-import { ConnectButton} from '@rainbow-me/rainbowkit';
 
 export default function Home() {
 

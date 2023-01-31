@@ -6,9 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "@rainbow-me/rainbowkit/styles.css";
 import React from "react";
 import { getDefaultWallets, RainbowKitProvider, darkTheme } from "@rainbow-me/rainbowkit";
-import { configureChains, createClient, WagmiConfig } from "wagmi";
-import { alchemyProvider } from "wagmi/providers/alchemy";
-import { publicProvider } from "wagmi/providers/public";
+import { configureChains, createClient, WagmiConfig } from "wagmi"
 import './App.css';
 import { mainnet, polygon, optimism, goerli } from 'wagmi/chains'
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc"

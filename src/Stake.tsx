@@ -1,12 +1,9 @@
-import React from 'react'
 import { Outlet, Link } from "react-router-dom";
-import { useContractWrite, useWaitForTransaction, useContractRead } from 'wagmi'
+import {  useContractRead } from 'wagmi'
 import { VAULT_FACTORY_ADDRESS } from './config';
 import VaultFactory from "./ABI/deployer.json"
 import { toast } from "react-toastify"
-import { useState } from 'react';
 import { ethers } from 'ethers';
-import UserInfo from './components/UserInfo';
 import TransitionsModal from './components/stake';
 
 

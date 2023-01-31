@@ -1,8 +1,3 @@
-import { useState } from 'react'
-import {  useContractWrite, useWaitForTransaction, useContractRead } from 'wagmi'
-import { VAULT_FACTORY_ADDRESS} from './config';
-import VaultFactory from "./ABI/deployer.json"
-import { toast } from "react-toastify"
 import Navbar from './components/Navbar';
 
 export default function Vault() {
