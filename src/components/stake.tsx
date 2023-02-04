@@ -16,7 +16,7 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 500,
+  width: 400,
   bgcolor: 'black',
   border: '2px blue #000',
   boxShadow: 24,
@@ -160,9 +160,9 @@ setunstake(0)
       >
         <Fade in={open}>
         <Box sx={style} className = "">
-        <p className='text-slate-300'> Your Token will be locked for 21days when staked, so you can claim after 21days. Also Check for your rewards on etherscan</p>
+        <div className='text-slate-300 flex'> <p className='flex-wrap'> Your Token will be locked for 21days when staked, so you can claim after 21days. Also Check for your rewards on etherscan.</p></div>
           <form onSubmit={handleSubmit} className='flex justify-center  m-12'  >
-            <input type="number" placeholder='NFT ID' id="myForm"
+            <input type="nuhttps://nftstakingvault.netlify.app/mber" placeholder='NFT ID' id="myForm"
                 className= 'md:w-3/5 h-10  p-2 outline-none rounded-md text-slate-900'onChange={(e: any) => Number(setstake(e.target.value))}  />
             <div className='-mt-2 ml-6'>
               <button className='p-3  border-solid border-2 border-sky-500  rounded-2xl text-neutral-50' type='submit'>
