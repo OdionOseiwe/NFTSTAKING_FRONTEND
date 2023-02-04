@@ -48,7 +48,7 @@ export default function Stake() {
           </div>
           {
             // @ts-ignore
-            Object.values(getData).map((detail: any, _i: number) => {
+            '' || Object.values(getData).map((detail: any, _i: number) => {
               console.log({detail, _i}); 
 
               return (
