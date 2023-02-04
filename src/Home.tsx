@@ -8,7 +8,7 @@ export default function Home() {
     <>
         <div className='Home bg-orange-50 h-full text-neutral-800 text-base p-8'>
             <div className='Home-con sm:flex justify-between p-10 '>
-                <div className='md:text-3xl lg:text-4xl font-bold '>
+                <div className='md:text-3xl text-2xl lg:text-4xl font-bold '>
                     <h1 className=''> More Protocol </h1>
                 </div>
                 <Layout/>
