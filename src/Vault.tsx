@@ -67,7 +67,7 @@ export default function Vault() {
       <Navbar />
       <div className='grid justify-items-center'>
         <p>Create your vault on the block explorer</p> 
-        <a href="https://goerli.etherscan.io/address/0x9018497AC0a1369c8cD1Fa4F39f7213161B84363#writeContract" className='underline-offset-0 text-green-300 text-xl'> GO TO EXPLORER</a>
+        <a href="https://goerli.etherscan.io/address/0x40b7d6b2961df0ef6aabd09bab55497c433ee088#writeContract" className='underline-offset-0 text-green-300 text-xl'> GO TO EXPLORER</a>
       </div>
      
     </div>
